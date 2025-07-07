@@ -2,9 +2,6 @@ streamlit
 torch
 transformers
 sentencepiece==0.2.0
-datasets
 pandas
 numpy
 google-generativeai
-matplotlib
-wordcloud
