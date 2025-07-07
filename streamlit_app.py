@@ -488,7 +488,7 @@ def load_models_with_retry(max_retries=3):
 
             traductor = pipeline(
                 task="translation",
-                model="facebook/nllb-200-distilled-600M",
+                model="umt5-base-quechua-espanol-finetuned-model-v3",
                 device=0 if torch.cuda.is_available() else -1,
                 torch_dtype=torch.float16,
                 max_length=500,
