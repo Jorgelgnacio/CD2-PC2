@@ -38,6 +38,24 @@ import torch
 from transformers import pipeline
 import google.generativeai as genai
 
+
+# ------------------
+# Configuración de página mejorada
+# ------------------
+
+st.set_page_config(
+    page_title="WasiBot Pro - Salud Mental",
+    page_icon="💬",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://www.minsa.gob.pe/',
+        'Report a bug': None,
+        'About': "### WasiBot \nAsistente de salud mental con soporte multilingüe"
+    }
+)
+
+
 # ------------------
 # Configuración inicial mejorada
 # ------------------
@@ -275,21 +293,6 @@ def load_dark_css():
 
 load_dark_css()
 
-# ------------------
-# Configuración de página mejorada
-# ------------------
-
-st.set_page_config(
-    page_title="WasiBot Pro - Salud Mental",
-    page_icon="💬",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://www.minsa.gob.pe/',
-        'Report a bug': None,
-        'About': "### WasiBot \nAsistente de salud mental con soporte multilingüe"
-    }
-)
 
 # ------------------
 # Funciones principales mejoradas
