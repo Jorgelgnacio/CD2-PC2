@@ -484,7 +484,7 @@ def load_models_with_retry(max_retries=3):
 
             traductor = pipeline(
                 task="translation",
-                model="facebook/nllb-200-1.3B",
+                model="Helsinki-NLP/opus-mt-es-en",
                 device=0 if torch.cuda.is_available() else -1,
                 torch_dtype=torch.float16,
                 max_length=500,
