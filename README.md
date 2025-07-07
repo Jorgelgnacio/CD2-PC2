@@ -2,7 +2,7 @@
 
 A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
 
-[![Open in Streamlit]([https://wasi-bot-tu-asistente-de-salud-mental.streamlit.app/](https://wasi-bot-tu-asistente-de-salud-mental.streamlit.app/)
+[![Open in Streamlit]([https://wasi-bot-tu-asistente-de-salud-mental2.streamlit.app/](https://wasi-bot-tu-asistente-de-salud-mental2.streamlit.app/)
 
 ### How to run it on your own machine
 
