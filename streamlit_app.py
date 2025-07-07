@@ -37,6 +37,7 @@ import re
 import torch
 from transformers import pipeline
 import google.generativeai as genai
+from transformers import MarianMTModel, MarianTokenizer
 
 
 # ------------------
