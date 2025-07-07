@@ -636,6 +636,7 @@ def main():
     
     # Sidebar profesional
     with st.sidebar:
+        st.image("https://i.imgur.com/kjO0gWS.png", use_column_width=True)
         st.markdown("## 📍 Recursos de Ayuda")
         
         with st.expander("🚨 Emergencias", expanded=True):
