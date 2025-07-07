@@ -1,7 +1,10 @@
 import os
+
 if os.getenv("STREAMLIT_ENV") is None:
-    # Solo intenta actualizar pip localmente
+    # Solo actualizar pip localmente
     os.system("pip install --upgrade pip")
+    # Solo actualizar transformers y torch localmente
+    os.system("pip install --upgrade transformers torch")
 
 
 import transformers                             # Permite trabajar con modelos preentrenados de traducción, clasificación, etc.
