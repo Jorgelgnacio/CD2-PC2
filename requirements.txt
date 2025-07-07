@@ -1,7 +1,7 @@
 streamlit==1.35.0
-rich==13.7.1               # ✅ compatible
-transformers==4.40.1       # o una versión que tú confirmes estable
-torch==2.1.2               # o la que mejor funcione con transformers
+rich==13.7.1             # Compatible con streamlit
+transformers==4.39.3     # Última que funciona bien en 3.10
+torch==2.2.0             # Compatible con transformers 4.39+
 sentencepiece
 datasets
 pandas
