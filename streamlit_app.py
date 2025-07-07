@@ -1,8 +1,7 @@
-import subprocess
-import sys
-
-# Actualizar pip y setuptools al iniciar la app
-subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "pip", "setuptools", "wheel"])
+import os
+if os.getenv("STREAMLIT_ENV") is None:
+    # Solo intenta actualizar pip localmente
+    os.system("pip install --upgrade pip")
 
 
 import transformers                             # Permite trabajar con modelos preentrenados de traducción, clasificación, etc.
