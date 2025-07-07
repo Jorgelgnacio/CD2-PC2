@@ -485,7 +485,7 @@ def load_models_with_retry(max_retries=3):
 
             traductor = pipeline(
                 task="translation",
-                model="Helsinki-NLP/opus-mt-es-en",
+                model="gabriellabollici/mbart-spanish-to-quechua",
                 device=0 if torch.cuda.is_available() else -1,
                 torch_dtype=torch.float16,
                 max_length=500,
